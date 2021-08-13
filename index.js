@@ -1,5 +1,6 @@
 function add(a, b) {
-  return Number(a) + Number(b);
+  const answer = Number(a) + Number(b);
+  return answer;
 }
 
 module.exports = {
