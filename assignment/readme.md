@@ -65,13 +65,15 @@ In today's assignment, we will be using TDD in a real-world scenario, to calcula
 1. Run `npm init -y` to create a `package.json` file in this directory.
 2. Install Jest by running `npm install jest`.
 3. Create an `index.js` file and, in that file, a function to work in and a `module.exports` line to export that function.
-4. Import the function in an `index.test.js` file.
+4. Import the function in an `index.test.js` file with `require`.
 5. Either directly run Jest using `jest` (for a one-time run) or `jest --watch-all` (for run-on-save), or add script(s) to your `package.json` file to run Jest.
+
+If you haven't created a test yet, you will get an error. **This error is normal and expected**. It's simply Jest telling you that you don't have any tests yet.
 
 
 ### Walking Through The First Test
 
-1. Write a failing test for the first requirement.
+1. Write a failing test for the first requirement. Once you've done so, run Jest to see the test fail.
 
 ```javascript
 it('should return 0 if there are no items in the cart', () => {
