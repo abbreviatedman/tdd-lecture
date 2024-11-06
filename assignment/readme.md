@@ -22,22 +22,22 @@ In today's assignment, we will be using TDD in a real-world scenario, to calcula
 
 **Examples:**
 
-[{ name: 'apple', price: 1, weight: 2, quantity: 1 }] -> 1
-[{ name: 'banana', price: 2, weight: 1, quantity: 1 }] -> 2
+[{ name: 'apple', price: 1, weight: 0, quantity: 1 }] -> 1
+[{ name: 'banana', price: 2, weight: 0, quantity: 1 }] -> 2
 
 3. The function should return the total price for multiple items in the cart.
 
 **Examples:**
 
-[{ name: 'apple', price: 1, weight: 2, quantity: 1 }, { name: 'banana', price: 2, weight: 1, quantity: 1 }] -> 3
-[{ name: 'mango', price: 3, weight: 3, quantity: 1 }, { name: 'orange', price: 4, weight: 2, quantity: 1 }] -> 7
+[{ name: 'apple', price: 1, weight: 0, quantity: 1 }, { name: 'banana', price: 2, weight: 0, quantity: 1 }] -> 3
+[{ name: 'mango', price: 3, weight: 0, quantity: 1 }, { name: 'orange', price: 4, weight: 0, quantity: 1 }] -> 7
 
 4. The function should return the total price for multiple items with quantity taken into account.
 
 **Examples:**
 
-[{ name: 'apple', price: 1, weight: 2, quantity: 2 }, { name: 'banana', price: 2, weight: 1, quantity: 1 }] -> 4
-[{ name: 'mango', price: 3, weight: 3, quantity: 3 }, { name: 'orange', price: 4, weight: 2, quantity: 2 }] -> 17
+[{ name: 'apple', price: 1, weight: 0, quantity: 2 }, { name: 'banana', price: 2, weight: 0, quantity: 1 }] -> 4
+[{ name: 'mango', price: 3, weight: 0, quantity: 3 }, { name: 'orange', price: 4, weight: 0, quantity: 2 }] -> 17
 
 5. The function should return the total price for multiple items with shipping taken into account. Shipping will be $2 per pound of weight.
 
